@@ -7,10 +7,12 @@ Url:		http://nvmexpress.org/
 License:	GPLv2
 Summary:	Tools for working with NVMe storage
 
+BuildRequires:  cmake
 BuildRequires:  meson
 BuildRequires:  pkgconfig(json-c)
 BuildRequires:  pkgconfig(libnvme)
 BuildRequires:  pkgconfig(uuid)
+BuildRequires:  pkgconfig(zlib)
 BuildRequires:  python3dist(autopep8)
 BuildRequires:  python3dist(flake8)
 BuildRequires:  python3dist(isort)
