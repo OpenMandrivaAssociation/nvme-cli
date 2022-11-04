@@ -33,6 +33,7 @@ Tools for working with NVMe storage
 
 %files
 %{_sbindir}/*
+%config(noreplace) %{_sysconfdir}/nvme/discovery.conf
 %{_datadir}/bash-completion/completions/nvme
 %{_datadir}/zsh/site-functions/_nvme
 %{_udevrulesdir}/70-nvmf-autoconnect.rules
@@ -41,3 +42,5 @@ Tools for working with NVMe storage
 %{_unitdir}/nvmf-autoconnect.service
 %{_unitdir}/nvmf-connect.target
 %{_unitdir}/nvmf-connect@.service
+%{_prefix}/lib/dracut/dracut.conf.d/70-nvmf-autoconnect.conf
+%{_prefix}/
