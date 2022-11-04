@@ -33,6 +33,5 @@ Tools for working with NVMe storage
 
 %files
 %{_sbindir}/*
-%{_mandir}/*/*
 %{_datadir}/bash-completion/completions/nvme
 %{_datadir}/zsh/site-functions/_nvme
