@@ -43,4 +43,3 @@ Tools for working with NVMe storage
 %{_unitdir}/nvmf-connect.target
 %{_unitdir}/nvmf-connect@.service
 %{_prefix}/lib/dracut/dracut.conf.d/70-nvmf-autoconnect.conf
-%{_prefix}/
