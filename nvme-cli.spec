@@ -1,6 +1,6 @@
 Name:		nvme-cli
 Version:	2.3
-Release:	1
+Release:	2
 Source0:	https://github.com/linux-nvme/nvme-cli/archive/v%{version}/%{name}-%{version}.tar.gz
 Group:		System/Hardware
 Url:		http://nvmexpress.org/
