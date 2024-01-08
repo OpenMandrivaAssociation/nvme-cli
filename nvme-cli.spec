@@ -37,7 +37,9 @@ Tools for working with NVMe storage
 %{_datadir}/bash-completion/completions/nvme
 %{_datadir}/zsh/site-functions/_nvme
 %{_udevrulesdir}/70-nvmf-autoconnect.rules
-#{_udevrulesdir}/71-nvmf-iopolicy-netapp.rules
+%{_udevrulesdir}/65-persistent-net-nbft.rules
+%{_udevrulesdir}/71-nvmf-netapp.rules
+%{_unitdir}/nvmf-connect-nbft.service
 %{_unitdir}/nvmefc-boot-connections.service
 %{_unitdir}/nvmf-autoconnect.service
 %{_unitdir}/nvmf-connect.target
