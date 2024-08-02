@@ -1,9 +1,9 @@
 Name:		nvme-cli
-Version:	2.9.1
+Version:	2.10
 Release:	1
 Source0:	https://github.com/linux-nvme/nvme-cli/archive/v%{version}/%{name}-%{version}.tar.gz
 Group:		System/Hardware
-Url:		http://nvmexpress.org/
+Url:		https://nvmexpress.org/
 License:	GPLv2
 Summary:	Tools for working with NVMe storage
 
