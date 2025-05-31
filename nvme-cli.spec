@@ -1,5 +1,5 @@
 Name:		nvme-cli
-Version:	2.11
+Version:	2.14
 Release:	1
 Source0:	https://github.com/linux-nvme/nvme-cli/archive/v%{version}/%{name}-%{version}.tar.gz
 Group:		System/Hardware
