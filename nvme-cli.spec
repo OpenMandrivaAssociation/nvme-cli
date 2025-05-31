@@ -40,6 +40,7 @@ Tools for working with NVMe storage
 %{_udevrulesdir}/65-persistent-net-nbft.rules
 %{_udevrulesdir}/71-nvmf-netapp.rules
 %{_udevrulesdir}/70-nvmf-keys.rules
+%{_udevrulesdir}/71-nvmf-vastdata.rules
 %{_unitdir}/nvmf-connect-nbft.service
 %{_unitdir}/nvmefc-boot-connections.service
 %{_unitdir}/nvmf-autoconnect.service
