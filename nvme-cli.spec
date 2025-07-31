@@ -38,6 +38,7 @@ Tools for working with NVMe storage
 %{_datadir}/zsh/site-functions/_nvme
 %{_udevrulesdir}/70-nvmf-autoconnect.rules
 %{_udevrulesdir}/65-persistent-net-nbft.rules
+%{_udevrulesdir}/71-nvme-hpe.rules
 %{_udevrulesdir}/71-nvmf-netapp.rules
 %{_udevrulesdir}/70-nvmf-keys.rules
 %{_udevrulesdir}/71-nvmf-vastdata.rules
